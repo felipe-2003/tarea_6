@@ -6,3 +6,134 @@ body {
 a {
     color: white;
 }
+
+
+.header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.header-image {
+    width: 80%;
+    height: auto;
+}
+
+.header-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header_overlay-text {
+    position: absolute;
+    /* Permite posicionar el texto sobre la imagen */
+    top: 50px;
+    /* Ajusta la distancia desde la parte superior */
+    right: 300px;
+    /* Ajusta la distancia desde la derecha */
+    transform: translate(0, 0);
+    /* Elimina el centrado, ya no es necesario */
+    color: white;
+    /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Sombra para mejorar la legibilidad */
+    font-size: 5rem;
+    /* Tamaño de la fuente */
+}
+
+.container {
+    padding: 20px;
+}
+
+.container_titulo_1 {
+    color: darkgrey;
+}
+
+.container_parrafo_1 {
+    font-weight: bold;
+}
+
+.container_titulo_2 {
+    color: darkgrey;
+}
+
+.container_parrafo_2 {
+    font-weight: bold;
+}
+
+.container_titulo_3 {
+    color: darkgrey;
+}
+
+.container_parrafo_3 {
+    font-weight: bold;
+}
+
+.container_titulo_4 {
+    color: darkgrey;
+}
+
+.container_parrafo_4 {
+    font-weight: bold;
+}
+
+.lateral {
+    padding: 20px;
+    color: white;
+}
+
+.lista_lateral {
+    list-style: none;
+    padding: 0;
+}
+
+.lista_lateral_item_1 {
+    border-bottom: 3px dotted white;
+    margin-bottom: 10px;
+}
+
+.lista_lateral_item_2 {
+    border-bottom: 3px dotted white;
+    margin-bottom: 10px;
+}
+
+.lista_lateral_item_3 {
+    border-bottom: 3px dotted white;
+    margin-bottom: 10px;
+}
+
+.lista_lateral_item_4 {
+    border-bottom: 3px dotted white;
+    margin-bottom: 10px;
+}
+
+.lista_lateral_item_5 {
+    border-bottom: 3px dotted white;
+    margin-bottom: 10px;
+}
+
+.links_titulo {
+    margin-top: 20px;
+}
+
+.links_lista {
+    list-style: none;
+    padding: 0;
+}
+
+.link_item_1 {
+    line-height: 1.1;
+}
+
+.link_item_2 {
+    line-height: 1.1;
+}
+
+.link_item_3 {
+    line-height: 1.1;
+}
+
+.link_item_4 {
+    line-height: 1.1;
+}
